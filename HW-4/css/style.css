@@ -1,0 +1,27 @@
+* {
+    color: blue;
+}
+div li {
+    color: blueviolet;
+}
+.card h2 {
+    color: brown;
+}
+h1 {
+    color: black;
+}
+#teal {
+    color: teal;
+}
+.olive {
+    background-color: orchid;
+}
+.olive .grey {
+    color: grey;
+}
+ul>li {
+    color: red;
+}
+ol+ul {
+    background-color: aquamarine;
+}
