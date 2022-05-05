@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">item1</a></li>
+                <li><a href="#">item2</a></li>
+                <li><a href="#">item3</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><span>item<b>1</b></span><a href="">link</a></li>
+            <li><span>item<b>2</b></span><a href="">link</a></li>
+            <li><span>item<b>3</b></span><a href="">link</a></li>
+            <li><span>item<b>4</b></span><a href="">link</a></li>
+            <li><span>item<b>5</b></span><a href="">link</a></li>
+        </ul>
+    </header>
+    <main>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>data</th>
+                    <th>number</th>
+                    <th>name</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" width="200" height="200" bgcolor="red">
+                        20 04 24
+                    </td>
+                    <td bgcolor="green">512435</td>
+                    <td>iPhone</td>
+                    <td rowspan="4">$399</td>
+                </tr>
+                <tr>
+                    <td>512435</td>
+                    <td>iPhone</td>
+                </tr>
+                <tr>
+                    <td>20 04 25</td>
+                    <td colspan="2" rowspan="2">
+                        512435
+                    </td>
+                </tr>
+                <tr>
+                    <td>20 04 26</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <i>total</i>
+                    </td>
+                    <td>
+                        <b>$1600</b>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <h4>
+            footer
+        </h4>
+    </footer>
+
+</body>
+
+</html>
