@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 26%;
+    text-align: center;
+    background-color: beige;
+    border: 3px solid royalblue;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    min-height: 400px;
+
+}
+
+.wrap {
+    text-align: center;
+    display: inline-block;
+    border: 5px solid black;
+    margin: 20px auto;
+    padding: 20px 10px;
+}
+
+ img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.btn {
+    padding: 10px 15px;
+    display: inline-block;
+    color: rgb(13, 7, 61);
+    background-color: rgb(16, 172, 16);
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+h3 a {
+    color: royalblue;
+}
