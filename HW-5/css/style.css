@@ -10,8 +10,8 @@
     border: 3px solid royalblue;
     padding: 20px 10px;
     margin: 20px 10px;
-    min-height: 400px;
-    max-width: 370px;
+    min-height: 416px;
+    vertical-align: top;
 }
 
 .wrap {
