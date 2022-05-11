@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(21, 12, 1, 1);
+}
+
+p {
+    margin: 0 0 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(21, 12, 1, 0.7);
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+h1,
+.sub-title {
+    text-align: center;
+}
+
+.sub-title {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(220, 120, 11, 0.7);
+    margin: 0 0 10px;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cards {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.cards li {
+display: inline-block;
+vertical-align: top;
+width: calc(100% / 3);
+margin: 0 -4px 0 0;
+padding: 0 15px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card_visual {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 18px 0 0;
+    margin: 0 auto 30px;
+}
+
+.card_visual_green {
+    background: rgba(143, 166, 50, 0.1);
+}
+
+.card_visual_yellow {
+    background: rgba(230, 77, 46, 0.08);
+
+}
+
+.card_visual_pink {
+    background: rgba(220, 120, 11, 0.1);
+
+}
+
+.card h2 {
+    margin: 0 0 20px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin: 0 0 40px;
+}
