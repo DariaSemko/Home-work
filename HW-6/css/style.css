@@ -77,8 +77,11 @@ nav {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: rgba(52, 84, 122, 1);
     margin: 63px 0 0 0;
+}
+
+nav>a {
+    color: rgba(52, 84, 122, 1);
 }
 
 nav a {
