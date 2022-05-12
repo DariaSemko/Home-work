@@ -10,7 +10,7 @@ body {
     overflow: hidden;
 }
 
-.conteiner {
+.container {
     display: inline-block;
     width: 1110px;
     height: 100%;
@@ -111,6 +111,7 @@ h1 {
     line-height: 26px;
     color: rgba(114, 114, 114, 1);
     margin-right: 55%;
+    text-align: left;
 }
 
 .btn a {
@@ -157,11 +158,12 @@ h2 {
 
 .text {
     display: inline-block;
+    margin: 0 38px 0 0;
 }
 
 img {
     display: inline-block;
-    margin: 100px 20px 0;
+    margin: 100px 20px 0 -4px;
 }
 
 h3 {
