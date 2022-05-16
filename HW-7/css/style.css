@@ -1,0 +1,174 @@
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.container::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.box-1 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box-2 {
+    float: right;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.box-3 {
+    float: left;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.box-4 {
+    float: right;
+    padding: 5px;
+}
+
+.box-4 ul {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+}
+
+.box-4 li {
+    float: left;
+    padding: 20px;
+    width: 150px;
+    height: 70px;
+    margin: 30px;
+    background-color: red;
+}
+
+.box-5 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box-6 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box_7_8 {
+    float: right
+}
+
+.box-7 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.box-8 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.box_9_10_11 {
+    margin: 0 auto;
+    display: table;
+}
+
+.box-9 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.box_10_11 {
+    float: left;
+    margin: 40px;
+}
+
+.box-10 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box-11 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box_12_13_14 {
+    float: right;
+}
+
+.box-12 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: red;
+    padding: 5px;
+}
+
+.box_13_14 {
+    float: left;
+    margin: 40px;
+}
+
+.box-13 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.box-14 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+}
