@@ -243,9 +243,12 @@ h4 {
 .holder input {
     background: white;
     border-radius: 30px;
+    border-color: white;
+    border-style: solid;
     width: 225px;
     height: 35px;
-    text-align: center;
+    text-align: left;
+    padding: 0 23px;
     margin: 25px 0 0;
 }
 
