@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1540px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: rgb(51, 50, 50);
+    border-bottom: 5px solid blue;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu li:hover>.drop {
+    display: block;
+}
+
+.menu>li:hover {
+    background-color: blue;
+    padding: 30px;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+.drop li {
+    position: relative;
+    display: block;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.drop .drop {
+    position: absolute;
+    left: 100%;
+    top: 0%;
+}
