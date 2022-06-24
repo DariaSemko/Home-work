@@ -1,0 +1,133 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p > a {
+        text-decoration: underline;
+    }
+}
+
+.holder-1 {
+    width: 42%;
+    font-size: 25px;
+    line-height: 35px;
+
+    ul {
+        display: flex;
+        margin: 0 0 24px 0;
+    }
+
+    li {
+        padding: 0 10px 0 0;
+    }
+
+    h2 {
+        font-size: 65px;
+        line-height: 70px;
+        margin: 0 -1px 51px 0;
+    }
+
+    p {
+        margin: 0 32px 50px 0;
+    }
+
+    span {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .holder-1 + .holder {
+        margin: 0 -8px 0 -5px;
+    }
+}
+
+.holder-2,
+.holder-4,
+.holder-5 {
+    width: 43%;
+}
+
+.holder-3 h2,
+.holder-2 h2 {
+    margin: 0 0 31px 0;
+}
+
+.holder-2 p {
+    margin: 0 55px 29px 0;
+}
+
+.holder-3 {
+    width: 40%;
+
+    h2 {
+        margin: 39px 140px 30px -4px;
+    }
+
+    p {
+        margin: 0 44px 36px -4px;
+    }
+
+    > a {
+        margin: 0 0 0 -4px;
+    }
+}
+
+.holder-4 h2 {
+    margin: 0 0 29px 0;
+}
+
+.holder-4 p {
+    margin: 0 32px 35px 0;
+}
+
+.holder-5 {
+    width: 40%;
+
+    h2 {
+        margin: 0 140px 33px -4px;
+    }
+
+    p {
+        margin: 0 0 27px -4px;
+    }
+
+    > a {
+        margin: 0 0 0 -4px;
+    }
+}
+
+.block_blue {
+    .holder > a {
+        max-width: 20%;
+    }
+
+    .holder > img {
+        max-width: 310px;
+    }
+}
+
+.block_brown {
+    .holder {
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .holder-6:after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 168px;
+        background: #000000;
+        margin: -3px 0 0 0;
+    }
+
+    .holder-7 {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 64px 0 76px;
+        width: 35%;
+    }
+}

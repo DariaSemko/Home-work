@@ -1,0 +1,16 @@
+body {
+    color: #00f;
+    background: #f00;
+}
+
+.box {
+    color: #0ff;
+
+    &:hover {
+        color: #f00;
+    }
+}
+
+.box2 {
+    color: yellow;
+}

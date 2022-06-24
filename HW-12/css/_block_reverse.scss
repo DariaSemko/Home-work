@@ -1,0 +1,15 @@
+.reverse .box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.reverse > .box {
+    margin: 0 0 250px 0;
+}
+
+.start_now {
+    font-weight: 600;
+}
+
+.reverse > .box:last-child {
+    margin: 0 0 150px 0;
+}

@@ -1,0 +1,57 @@
+.block_white {
+    text-align: left;
+
+    .cards {
+        display: flex;
+    }
+
+    .cards li {
+        margin: 0 0;
+    }
+
+    li {
+        width: 31%;
+    }
+
+    h3 {
+        margin: 6px 0 34px 0;
+    }
+
+    p {
+        margin: 0 0 25px 0;
+    }
+
+    img {
+        width: auto;
+        max-height: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card > a {
+        text-decoration: underline;
+    }
+
+    .card-2 {
+        margin: 23px 0 0 -6px;
+
+        h3 {
+            margin: 18px 0 33px 0;
+        }
+
+        p {
+            margin-bottom: 25px;
+        }
+    }
+
+    .card-3 {
+        margin: 15px 0 0 -10px;
+
+        h3 {
+            margin: 9px 0 33px 0;
+        }
+
+        p {
+            margin-bottom: 25px;
+        }
+    }
+}

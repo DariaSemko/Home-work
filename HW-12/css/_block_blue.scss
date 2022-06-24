@@ -1,0 +1,23 @@
+.block_blue {
+    width: 100%;
+    margin: 187px 0 0 0;
+    padding: 55px 0 105px 0;
+    background-color: $blue;
+    font-size: 15px;
+    line-height: 25px;
+
+    .box {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    blockquote {
+        margin: 10px 72px 23px 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .block_blue span {
+        margin: 0 0 7px 0;
+    }
+}

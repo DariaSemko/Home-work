@@ -1,0 +1,32 @@
+.block_yellow {
+    width: 100%;
+    padding: 120px 0 81px 0;
+    margin: 0 0 144px;
+    background: $yellow;
+    text-align: center;
+
+    p > a {
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .card {
+        text-align: center;
+        padding: 9px 30px 1px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 55px;
+
+        img {
+            max-width: 160px;
+        }
+
+        h3 {
+            margin: 20px 0 20px 0;
+        }
+    }
+}

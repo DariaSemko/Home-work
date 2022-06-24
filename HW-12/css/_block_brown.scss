@@ -1,0 +1,47 @@
+.block_brown {
+    width: 100%;
+    background-color: $brown;
+    margin-bottom: 165px;
+    padding: 90px 0 82px 0;
+
+    .box {
+        margin: -8px 0 0 -20px;
+    }
+
+    h3 {
+        font-size: 35px;
+        line-height: 50px;
+        margin: 0 0 0 67px;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin: -15px 0 0 0;
+        height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .rating {
+        font-family: "icomoon";
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0 0 10px 0;
+        justify-content: center;
+    }
+
+    .rating li {
+        padding: 0 5px 0 0;
+    }
+
+    .rating li::before {
+        content: "\e900";
+        font-family: "icomoon";
+        font-size: 20px;
+    }
+}

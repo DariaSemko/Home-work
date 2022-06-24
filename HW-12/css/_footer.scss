@@ -1,0 +1,94 @@
+#footer {
+    background: $White;
+    width: 100%;
+
+    .navigation {
+        display: flex;
+        margin: 0 0 95px 0;
+        padding: 92px 0 0 0;
+    }
+
+    .card h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 28px 0;
+    }
+
+    .navigation .card {
+        display: flex;
+        flex-direction: column;
+        width: 23%;
+    }
+
+    .card img + a {
+        max-width: 80px;
+        margin: 34px 0 1px 0;
+    }
+
+    .card a {
+        font-weight: 600;
+    }
+}
+
+.inner {
+    display: flex;
+    font-size: 15px;
+    line-height: 15px;
+    width: 70%;
+
+    ul {
+        width: 25%;
+        margin: 6px 0 0 53px;
+    }
+
+    ul:nth-child(2) {
+        margin: 6px -10px 0 43px;
+    }
+
+    ul:last-child {
+        margin: 6px 9px 0 43px;
+    }
+
+    li {
+        margin: 0 0 15px 0;
+
+        h3 {
+            padding: 0 0 6px 0;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 15px;
+    border-top: 1px solid $black;
+    padding: 47px 0 48px 0;
+
+    .logo_section {
+        display: flex;
+        padding: 5px 0 0 0;
+        width: 69%;
+
+        p {
+            margin: 0 500px 0 0;
+        }
+
+        a {
+            margin: 0 15px 0 0;
+            width: 16%;
+        }
+    }
+
+    .rights_reserved {
+        margin: 0 77px 0 0;
+
+        p {
+            margin: 0 0;
+        }
+    }
+}

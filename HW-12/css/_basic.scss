@@ -1,0 +1,98 @@
+#wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Graphik", sans-serif, Arial, "Helvetica Neue";
+    color: $black;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1438px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 74px;
+}
+
+img {
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: all 0.6s;
+
+    &:hover {
+        text-shadow: 0 0 3px $orange;
+        transform: scale(1.1);
+    }
+
+    &:active {
+        color: $green;
+    }
+
+    > img:hover {
+        transform: scale(1.2);
+    }
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.card {
+    padding: 0;
+    text-align: left;
+
+    > a {
+        text-decoration: underline;
+    }
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    margin: 128px 0 173px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 69px 0 0 0;
+
+    li {
+        width: 30%;
+        margin: 0 10px;
+    }
+}

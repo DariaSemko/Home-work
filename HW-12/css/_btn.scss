@@ -1,0 +1,66 @@
+.btn {
+    min-width: 160px;
+    background-color: $White;
+    border: 1px solid $gray;
+    text-align: center;
+}
+
+.btn_white {
+    display: inline-block;
+    min-width: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    transition: all 0.6s;
+}
+
+.btn_white:hover {
+    background: $orange;
+    color: $White;
+}
+
+.btn_orange {
+    display: inline-block;
+    min-width: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: $orange;
+    color: $White;
+    background: $orange;
+    transition: all 0.6s;
+}
+
+.btn_orange:hover {
+    background: $White;
+    color: $black;
+}
+
+.holder-1 {
+    .btn_white {
+        line-height: 60px;
+        min-width: 159px;
+    }
+
+    .btn_orange {
+        padding: 0;
+        line-height: 60px;
+        min-width: 159px;
+    }
+}
+
+.block_integrate {
+    .btn_orange {
+        min-width: 193px;
+        padding: 7px 0;
+        margin: 32px 0 0 0;
+    }
+}
+
+.btn_black {
+    color: $White;
+    background-color: $black;
+    margin: 38px 0 0 0;
+    font-size: 17px;
+    line-height: 60px;
+}
