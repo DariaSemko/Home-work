@@ -1,0 +1,16 @@
+body {
+  color: #00f;
+  background: #f00;
+}
+
+.box {
+  color: #0ff;
+}
+.box:hover {
+  color: #f00;
+}
+
+.box2 {
+  color: yellow;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSTtFQUNBOzs7QUFHSjtFQUNJOztBQUVBO0VBQ0k7OztBQUlSO0VBQ0kiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XHJcbiAgICBjb2xvcjogIzAwZjtcclxuICAgIGJhY2tncm91bmQ6ICNmMDA7XHJcbn1cclxuXHJcbi5ib3gge1xyXG4gICAgY29sb3I6ICMwZmY7XHJcblxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgY29sb3I6ICNmMDA7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5ib3gyIHtcclxuICAgIGNvbG9yOiB5ZWxsb3c7XHJcbn0iXX0= */
